@@ -126,3 +126,6 @@ SIMPLE_JWT = {
 }
 
 # Ensure email is unique by default
+
+# Use BigAutoField by default to avoid warnings
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
